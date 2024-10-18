@@ -1,0 +1,32 @@
+/* Button component styling */
+.button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    margin-top: 20px; /* Space above the button */
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .button {
+        font-size: 0.9rem; /* Smaller font size on smaller screens */
+        padding: 8px 16px; /* Reduced padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+        font-size: 0.8rem; /* Even smaller font size on extra small screens */
+        padding: 6px 12px; /* Further reduced padding */
+    }
+}
